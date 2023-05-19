@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cajero Automático</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cajero automatico.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cajero Automático</h1>
+        <div id="login" class="well">
+            <h3>Selecciona tu cuenta</h3>
+            <select id="cuenta" class="form-control">
+                <option value="0">Marvin</option>
+                <option value="1">Jesua</option>
+                <option value="2">Felipe</option>
+            </select><br>
+            <input id="password" type="password" class="form-control" placeholder="Contraseña"><br>
+            <button id="btnLogin" class="btn btn-primary">Ingresar</button><br><br>
+            <p id="mensaje"></p>
+        </div>
+        <div id="cajero" style="display: none;">
+            <h3>Bienvenido <span id="nombre"></span></h3><br>
+            <button id="btnSaldo" class="btn btn-info">Consultar Saldo</button><br><br>
+            <button id="btnIngresar" class="btn btn-success">Ingresar Monto</button><br><br>
+            <button id="btnRetirar" class="btn btn-danger">Retirar Monto</button><br><br>
+            <p id="saldo"></p><br><br>
+            <button id="btnSalir" class="btn btn-warning">Salir</button><br><br>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="cajero automatico.js"></script>
+</body>
+</html>
