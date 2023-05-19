@@ -1,9 +1,9 @@
 
    
     var cuentas = [
-    { nombre: "Marvin", saldo: 200, password: "123" },
-    { nombre: "Jesua", saldo: 290, password: "456" },
-    { nombre: "Felipe", saldo: 67, password: "789" }
+    { nombre: "Mali", saldo: 200, password: "123" },
+    { nombre: "Gera", saldo: 290, password: "456" },
+    { nombre: "Maui", saldo: 67, password: "789" }
 ];
 
 var cuentaActual = null;
